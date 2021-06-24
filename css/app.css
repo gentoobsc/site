@@ -1,0 +1,49 @@
+.slotwrapper {
+    overflow: hidden;
+    display: inline-block;
+    /* border: 1px solid #000; */
+    height: 50px;
+    background-color: #490fb4;
+    border-radius: 15px;
+}
+.slotwrapper ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+#myRange {
+width: 100%;
+
+}
+
+.slotwrapper ul {
+    width: 50px;
+    height:50px;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.slotwrapper ul li img {
+    vertical-align: top;
+}
+@media screen and (max-width: 1200px) {
+    .slotwrapper {
+        width: 100%;
+    }
+    .slotwrapper ul {
+        width: 33%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .slotwrapper {
+        height: 50px;
+    }
+    .slotwrapper ul {
+        height:50px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
